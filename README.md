@@ -64,7 +64,7 @@ mininet> h1 ping -c 1 h2
 
 **Screenshot: Controller Log (Proof of Learning)**
 ![Initial Ping](./screenshots/initialping.png)
-![Controller Log](./screenshots/intitialpinglogs.png)
+![Controller Log](./screenshots/initialpinglogs.png)
 
 *   **Analysis:** The high latency and the `Installing flow` messages confirm that the packet was sent to the controller (slow path), which then successfully programmed the switch.
 
