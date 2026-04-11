@@ -3,7 +3,7 @@
 A project to implement a Layer 2 learning switch using an SDN controller (POX) and a virtual network (Mininet).
 
 - **Author:** Srivani Karanth
-- **Student ID:** PES1UG24CS471
+- **SRN:** PES1UG24CS471
 
 ---
 
@@ -93,6 +93,8 @@ mininet> h1 ping -c 1 h2
 
 **Screenshot: Second Ping Result**
 ![Second Ping Result](./screenshots/secondping.png)
+
+the below image shows that no new logs appeared:
 ![No New Logs](./screenshots/nologs.png)
 
 *   **Analysis:** The significantly lower latency and the absence of controller logs prove that the packet was handled directly by the switch using the installed flow rule (fast path), bypassing the controller entirely. This demonstrates the efficiency gain of SDN.
@@ -138,5 +140,5 @@ The project consists of two main Python files:
 ## 5. References
 
 - Mininet Documentation: [http://mininet.org/](http://mininet.org/)
-- POX Controller Wiki: [https://github.com/noxrepo/pox/wiki](https://github.com/noxrepo/pox/wiki)
+- POX Controller Wiki: [https://noxrepo.github.io/pox-doc/html/](https://noxrepo.github.io/pox-doc/html/)
 - Open vSwitch Documentation: [https://docs.openvswitch.org/](https://docs.openvswitch.org/)
